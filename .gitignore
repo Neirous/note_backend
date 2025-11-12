@@ -1,1 +1,11 @@
-/target
+# Rust 相关
+target/
+Cargo.lock
+# 前端相关
+node_modules/
+dist/
+# 数据库相关（避免上传本地配置）
+.env
+# IDE 配置
+.idea/
+.vscode/
